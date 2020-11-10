@@ -25,7 +25,7 @@ Las lineas que empiezan con '@' son código 'blade'
 ## routes/
 * web.php
 
-##### Crear base de datos (con nombre blog, por ejemplo)
+##### * Crear base de datos (con nombre blog, por ejemplo)
 
 # Configurar bases de datos
 * Archivo *.env* en raíz del proyecto
