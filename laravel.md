@@ -49,6 +49,9 @@ debajo de $table->id en la función *Up*
 * Ejecutamos de nuevo *php artisan migrate* para copiar la base a phpMyAdmin
 
 ### Entrar en routes/web.php
-Configuramos una ruta con el siguiente codigo
-Route::get('contactos', 'contact')->name('contact');
+Añadimos una vista con el siguiente codigo
+
+`Route::view('contactos', 'contact')->name('contact');`
+
+Luego, creamos la vista en *resources/views/* con el nombre contact.blade.php
 ## Crear registros falsos en la tabla
