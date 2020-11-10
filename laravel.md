@@ -56,4 +56,11 @@ Añadimos una vista con el siguiente codigo
 `Route::view('contactos', 'contact')->name('contact');`
 
 Luego, creamos la vista en *resources/views/* con el nombre contact.blade.php
+
+Añadimos otra vista en routes/web.php
+
+`Route::view('acerca-de', 'about')->name('about');`
+
+Y creamos el documento de la vista en *resources/views* con el nombre about.blade.php
+
 ## Crear registros falsos en la tabla
