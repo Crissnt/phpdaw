@@ -38,4 +38,17 @@ Las lineas que empiezan con '@' son código 'blade'
 
 # Eloquent
 ## Crear modelo y migración
-* Ejecutar php artisan make:model Nota -m
+* Ejecutar *php artisan make:model Nota -m*
+Ahora tenemos un nuevo archivo en database/migrations. Dentro de él, pegar
+    $table->string('nombre');
+    $table->text('descripcion');
+
+debajo de $table->id en la función *Up*
+
+* También tenemos un nuevo modelo en /app/models llamado nota.php
+* Ejecutamos de nuevo *php artisan migrate* para copiar la base a phpMyAdmin
+
+### Entrar en routes/web.php
+Configuramos una ruta con el siguiente codigo
+Route::get('contactos', 'contact')->name('contact');
+## Crear registros falsos en la tabla
