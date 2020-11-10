@@ -14,8 +14,8 @@
 * Fichero htaccess
 
 ### resources/
-#### views/
-##### welcome.blade.php
+####    views/
+#####       welcome.blade.php
 Las lineas que empiezan con '@' son código 'blade'
 
 ## app/
