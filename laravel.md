@@ -40,8 +40,10 @@ Las lineas que empiezan con '@' son código 'blade'
 ## Crear modelo y migración
 * Ejecutar *php artisan make:model Nota -m*
 Ahora tenemos un nuevo archivo en database/migrations. Dentro de él, pegar
+```
     $table->string('nombre');
     $table->text('descripcion');
+```
 
 debajo de $table->id en la función *Up*
 
