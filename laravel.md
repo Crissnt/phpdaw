@@ -118,7 +118,8 @@ Introducir el código de github
 
 * Ejecutar comando *php artisan migrate:refresh --seed*
 
-
+* app/http/controller/PostController.php
+- asd
 
 
 
