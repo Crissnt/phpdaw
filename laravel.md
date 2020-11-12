@@ -103,6 +103,25 @@ Código layout.blade.php
     @yield('content')
     </div>
 ```
+
+Ejecutamos `php artisan make:model Post -msfc`
+
+* database/migrations/
+Se ha creado el archivo ...create_posts_table.php 
+Introducir el código de github
+
+* Ejecutar el comando `php artisan migrate`. Se crea la tabla *posts* en la base de datos del proyecto
+
+* En database/factories/postfactory.php añadimos el código de github
+
+* database/seeders/PostSeeder.php y FactorySeeder.php
+
+* Ejecutar comando *php artisan migrate:refresh --seed*
+
+
+
+
+
 ## Crear registros falsos en la tabla
 
 # Comandos importantes
