@@ -5,7 +5,7 @@
 3. Crear carpeta 'laravel' en xampp/htdocs/
 4. laravel new nombreProyecto
 5. Con Visual Studio Code, abrir la carpeta del proyecto
-6. Introducir php artisan serve en la consola de Visual Studio (esto arranca la aplicación)
+6. Introducir `php artisan serve` en la consola de Visual Studio (esto arranca la aplicación)
 
 <hr>
 
@@ -30,7 +30,7 @@ Las lineas que empiezan con '@' son código 'blade'
 # Configurar bases de datos
 * Archivo *.env* en raíz del proyecto
 
-* Ejecutar *php artisan migrate*. Esto creará una serie de tablas en la base de datos 'blog'.
+* Ejecutar `php artisan migrate`. Esto creará una serie de tablas en la base de datos 'blog'.
 * En database/migrations/ se encuentran los esquemas de las tablas creadas con migrate
 
 #### models/
@@ -64,3 +64,7 @@ Añadimos otra vista en routes/web.php
 Y creamos el documento de la vista en *resources/views* con el nombre about.blade.php
 
 ## Crear registros falsos en la tabla
+
+# Comandos importantes
+
+* php artisan serve - Arranca el servidor
