@@ -122,8 +122,12 @@ Introducir el código de github
 
 
 
-
-## Crear registros falsos en la tabla
+### Archivos
+* post.blade.php
+* blog.blade.php
+* PostController.php
+* web.php
+* app.css
 
 # Comandos importantes
 
